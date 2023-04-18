@@ -49,6 +49,11 @@ const Navbar = () => {
               Signup
             </NavLink>
           </li>
+          <li className="nav-item">
+            <NavLink className="nav-link" to="/manageuser">
+              ManageUser
+            </NavLink>
+          </li>
         </ul>
         {/* Left links */}
         <div className="d-flex align-items-center">
